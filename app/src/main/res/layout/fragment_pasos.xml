@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <!-- Botón "Ver Cartas" en la parte superior izquierda -->
+    <Button
+        android:id="@+id/botonVerCartas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Cartas"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:layout_alignParentTop="true"/>
+
+    <!-- RecyclerView ocupa el resto del espacio -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pasosRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/botonVerCartas"
+        android:layout_above="@+id/botonControls"
+        android:layout_margin="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Contenedor para los botones "Mi Turno" y "Siguiente" -->
+    <LinearLayout
+        android:id="@+id/botonControls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/botonMiTurno"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="Mi Turno" />
+
+        <Button
+            android:id="@+id/botonSiguiente"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="Siguiente"
+            android:enabled="false" />
+    </LinearLayout>
+
+</RelativeLayout>
