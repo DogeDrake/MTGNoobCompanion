@@ -10,6 +10,6 @@ MTG Companion es una aplicación de apoyo para jugadores de Magic: The Gathering
 - **Interrupción y Reanudación**: Guarda el estado de los pasos y reanuda desde donde lo dejaste.
 
 ## Uso
-- **Pantalla de Barajas: Visualiza las barajas disponibles. Toca una baraja para ver sus pasos.
-- **Pantalla de Pasos: Navega por los pasos del juego utilizando los botones "Mi Turno" y "Siguiente". Puedes ver los pasos en detalle y navegar a la pantalla de cartas.
-- **Pantalla de Cartas: Filtra las cartas por título utilizando el buscador. Examina los detalles de cada carta.
+- **Pantalla de Barajas**: Visualiza las barajas disponibles. Toca una baraja para ver sus pasos.
+- **Pantalla de Pasos**: Navega por los pasos del juego utilizando los botones "Mi Turno" y "Siguiente". Puedes ver los pasos en detalle y navegar a la pantalla de cartas.
+- **Pantalla de Cartas**: Filtra las cartas por título utilizando el buscador. Examina los detalles de cada carta.
