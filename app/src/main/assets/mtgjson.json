@@ -1,0 +1,41 @@
+{
+  "Titulos_de_Barajas": [
+    {
+      "ID": 1,
+      "Titulo": "Deep Clue Sea",
+      "Imagen": "",
+      "Pasos": [
+        {"ID": 1, "Nombre": "Enderezar"},
+        {"ID": 2, "Nombre": "Mantenimiento(Upkeep)"},
+        {"ID": 2, "Nombre": "Crear Pista (Comandante en Mesa)"},
+        {"ID": 3, "Nombre": "Robar"},
+        {"ID": 4, "Nombre": "Fase Principal"},
+        {"ID": 4, "Nombre": "Añadir contador +1/+1 (Comandante en Mesa)"},
+        {"ID": 5, "Nombre": "Fase de Combate"},
+        {"ID": 6, "Nombre": "Fase Final (Unkeep)"},
+        {"ID": 6, "Nombre": "Paso Turno"}
+      ],
+      "Cartas": [
+        {"ID": 1, "Titulo": "Tierra Media", "Descripción": "Añáde 1 de maná total", "Coste": "2GR", "Imagen": ""},
+        {"ID": 2, "Titulo": "Océano Profundo", "Descripción": "Roba 2 cartas adicionales si tienes menos de 3 cartas en mano", "Coste": "3U", "Imagen": ""}
+      ]
+    },
+    {
+      "ID": 2,
+      "Titulo": "Slivers Happy Family",
+      "Imagen": "",
+      "Pasos": [
+        {"ID": 1, "Nombre": "Enderezar"},
+        {"ID": 2, "Nombre": "Mantenimiento"},
+        {"ID": 3, "Nombre": "Robar"},
+        {"ID": 4, "Nombre": "Fase Principal"},
+        {"ID": 5, "Nombre": "Fase de Combate"},
+        {"ID": 6, "Nombre": "Fase Final"}
+      ],
+      "Cartas": [
+        {"ID": 1, "Titulo": "Familia Férrea", "Descripción": "Todos los Slivers ganan +1/+1", "Coste": "2W", "Imagen": ""},
+        {"ID": 2, "Titulo": "Cazador Sliver", "Descripción": "Siempre que un Sliver ataque, roba una carta", "Coste": "3G", "Imagen": ""}
+      ]
+    }
+  ]
+}
