@@ -40,7 +40,7 @@ class PasosFragment : Fragment() {
         // Inicializar la propiedad pasos y tituloDeBaraja
         arguments?.let {
             tituloDeBaraja = it.getSerializable(ARG_TITULO_DE_BARJA) as? TitulosDeBaraja
-                ?: TitulosDeBaraja(0, "", "", emptyList(), emptyList())
+                ?: TitulosDeBaraja(0, "", "","", emptyList(), emptyList())
             pasos = tituloDeBaraja.Pasos
         } ?: run {
             return view

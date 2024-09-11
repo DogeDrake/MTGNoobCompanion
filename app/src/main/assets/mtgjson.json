@@ -3,17 +3,15 @@
     {
       "ID": 1,
       "Titulo": "Deep Clue Sea",
-      "Imagen": "",
+      "Imagen": "https://assets.moxfield.net/cards/card-naDDB-art_crop.webp",
+      "Color": "{G}{W}{U}",
       "Pasos": [
         {"ID": 1, "Nombre": "Enderezar"},
         {"ID": 2, "Nombre": "Mantenimiento(Upkeep)"},
-        {"ID": 2, "Nombre": "Crear Pista (Comandante en Mesa)"},
         {"ID": 3, "Nombre": "Robar"},
         {"ID": 4, "Nombre": "Fase Principal"},
-        {"ID": 4, "Nombre": "Añadir contador +1/+1 (Comandante en Mesa)"},
         {"ID": 5, "Nombre": "Fase de Combate"},
-        {"ID": 6, "Nombre": "Fase Final (Unkeep)"},
-        {"ID": 6, "Nombre": "Paso Turno"}
+        {"ID": 6, "Nombre": "Fase Final"}
       ],
       "Cartas": [
         {"ID": 1, "Titulo": "Tierra Media", "Descripción": "Añáde 1 de maná total", "Coste": "2GR", "Imagen": ""},
@@ -23,7 +21,8 @@
     {
       "ID": 2,
       "Titulo": "Slivers Happy Family",
-      "Imagen": "",
+      "Imagen": "https://assets.moxfield.net/cards/card-EPMD9-art_crop.webp",
+      "Color": "{W}{U}{B}{R}{G}",
       "Pasos": [
         {"ID": 1, "Nombre": "Enderezar"},
         {"ID": 2, "Nombre": "Mantenimiento"},

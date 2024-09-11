@@ -1,5 +1,6 @@
 package com.example.mtgcompanion
 
+import BarajasAdapter
 import JSON.MTGJSON
 import JSON.TitulosDeBaraja
 import android.os.Bundle
