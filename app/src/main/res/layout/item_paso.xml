@@ -5,4 +5,5 @@
     android:padding="16dp"
     android:background="@drawable/rounded_background"
     android:textColor="@color/white"
+    android:textStyle="bold"
     android:textSize="18sp" />

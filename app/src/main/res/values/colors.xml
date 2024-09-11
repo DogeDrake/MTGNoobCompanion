@@ -141,5 +141,6 @@
         <color name="navy">#000080</color>
         <color name="black">#000000</color>
         <color name="highlighted_background">#3B55FF</color> <!-- Ejemplo de color amarillo -->
-        <color name="default_background">#000000</color> <!-- Fondo blanco por defecto -->
+        <color name="default_background">#000000</color>
+        <color name="darkmode_custom_color">#292929</color><!-- Fondo blanco por defecto -->
 </resources>

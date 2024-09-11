@@ -8,7 +8,7 @@
         android:id="@+id/itemContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/darkslateblue"
+        android:background="@drawable/rounded_background"
         android:orientation="vertical">
 
         <!-- Imagen de fondo de la baraja -->
@@ -17,6 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="250dp"
         android:scaleType="fitXY"
+
         android:adjustViewBounds="true"
         android:contentDescription=""
         android:layout_gravity="center"

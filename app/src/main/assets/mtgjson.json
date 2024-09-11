@@ -8,10 +8,12 @@
       "Pasos": [
         {"ID": 1, "Nombre": "Enderezar"},
         {"ID": 2, "Nombre": "Mantenimiento(Upkeep)"},
-        {"ID": 3, "Nombre": "Robar"},
-        {"ID": 4, "Nombre": "Fase Principal"},
-        {"ID": 5, "Nombre": "Fase de Combate"},
-        {"ID": 6, "Nombre": "Fase Final"}
+        {"ID": 3, "Nombre": "Sumar contador Pista (Comandante)"},
+        {"ID": 4, "Nombre": "Robar"},
+        {"ID": 5, "Nombre": "Fase Principal"},
+        {"ID": 6, "Nombre": "Sumar +1/+1 (2º Robo y Comandante)"},
+        {"ID": 7, "Nombre": "Fase de Combate"},
+        {"ID": 8, "Nombre": "Fase Final"}
       ],
       "Cartas": [
         {"ID": 1, "Titulo": "Tierra Media", "Descripción": "Añáde 1 de maná total", "Coste": "2GR", "Imagen": ""},
@@ -35,6 +37,24 @@
         {"ID": 1, "Titulo": "Familia Férrea", "Descripción": "Todos los Slivers ganan +1/+1", "Coste": "2W", "Imagen": ""},
         {"ID": 2, "Titulo": "Cazador Sliver", "Descripción": "Siempre que un Sliver ataque, roba una carta", "Coste": "3G", "Imagen": ""}
       ]
+    }, {
+      "ID": 3,
+      "Titulo": "Political Puppets",
+      "Imagen": "https://assets.moxfield.net/cards/card-kydw1-art_crop.jpg",
+      "Color": "{R}{W}{U}",
+      "Pasos": [
+        {"ID": 1, "Nombre": "Enderezar"},
+        {"ID": 2, "Nombre": "Mantenimiento(Upkeep)"},
+        {"ID": 3, "Nombre": "Robar"},
+        {"ID": 4, "Nombre": "Fase Principal"},
+        {"ID": 5, "Nombre": "Fase de Combate"},
+        {"ID": 6, "Nombre": "Fase Final"}
+      ],
+      "Cartas": [
+        {"ID": 1, "Titulo": "Tierra Media", "Descripción": "Añáde 1 de maná total", "Coste": "2GR", "Imagen": ""},
+        {"ID": 2, "Titulo": "Océano Profundo", "Descripción": "Roba 2 cartas adicionales si tienes menos de 3 cartas en mano", "Coste": "3U", "Imagen": ""}
+      ]
     }
+
   ]
 }

@@ -31,7 +31,7 @@ class PasosAdapter(private val pasos: List<Paso>) : RecyclerView.Adapter<PasosAd
 
         fun bind(paso: Paso, isHighlighted: Boolean) {
             nombreTextView.text = paso.Nombre
-            val backgroundColor = if (isHighlighted) R.color.highlighted_background else R.color.default_background
+            val backgroundColor = if (isHighlighted) R.color.darkmode_custom_color else R.color.default_background
             nombreTextView.setBackgroundColor(ContextCompat.getColor(itemView.context, backgroundColor))
         }
     }
